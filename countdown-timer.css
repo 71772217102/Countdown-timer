@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(../images/timeback4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+#countdown{
+    font-size: 80px;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+}
+#hours,#minutes,#seconds{
+    padding:10px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left:380px;
+    font-weight: bolder;
+    position: relative;
+    top:80px;
+    background-color:white;
+    color: black;
+}
+#startButton,#stopButton,#resetButton{
+    padding:10px;
+    font-size: 20px;
+    border-radius: 20%;
+    position: relative; 
+   top:130px;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   font-weight:bolder;
+}
+#resetButton{
+    position: relative;
+    left:800px;
+}
+
+#stopButton{
+    position: relative;
+    left:700px;
+}
+
+#startButton{
+    position: relative;
+    left:550px;
+}
+#startButton:hover{
+    background-color:white;
+    color:black;
+}
+
+#stopButton:hover{
+    background-color:white;
+    color:black;
+}
+
+#resetButton:hover{
+    background-color:white;
+    color:black;
+}
